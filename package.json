@@ -1,0 +1,24 @@
+{
+	"name": "expense-tracker-mern",
+	"version": "1.0.0",
+	"description": "Backend for Expense Tracker",
+	"main": "server.js",
+	"scripts": {
+		"server": "node server",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"author": "Catevika",
+	"license": "MIT",
+	"dependencies": {
+		"colors": "1.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongoose": "^7.0.3",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"concurrently": "^7.6.0"
+	}
+}
